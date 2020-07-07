@@ -8,10 +8,13 @@ y = [8, 9, 10]
 
 # Change x so that it is [1, 2, 3, 4]
 # YOUR CODE HERE
+x.append(4)
 print(x)
 
 # Using y, change x so that it is [1, 2, 3, 4, 8, 9, 10]
 # YOUR CODE HERE
+for values in y:
+    x.append(values)
 print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 10]
